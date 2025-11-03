@@ -1,0 +1,23 @@
+/* App.css */
+body { margin:0; font-family: Arial, sans-serif; }
+.topbar { display:flex; align-items:center; justify-content:space-between; padding:10px 16px; background:#f5f5f5; border-bottom:1px solid #ddd; }
+.topbar .center nav { font-weight:600; color:#333; }
+.admin-popup { position: absolute; right:16px; top:48px; background:white; border:1px solid #ddd; padding:8px; box-shadow:0 6px 12px rgba(0,0,0,0.08); }
+.main { display:flex; height:calc(100vh - 56px); }
+.sidebar { width:260px; border-right:1px solid #eee; padding:12px; overflow-y:auto; background:#fafafa; }
+.new-btn { width:100%; padding:10px; margin-bottom:8px; font-weight:600; }
+.menu div { padding:6px 4px; cursor:pointer; }
+.cat-list { padding-left:8px; }
+.content { flex:1; padding:16px; display:flex; flex-direction:column; }
+.content-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; }
+.q-table { width:100%; border-collapse:collapse; }
+.q-table th, .q-table td { border:1px solid #eee; padding:8px; text-align:left; }
+.q-table .link { background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; padding:0; }
+.controls { padding:12px 0; }
+.modal-backdrop { position:fixed; inset:0; background:rgba(0,0,0,0.35); display:flex; align-items:center; justify-content:center; }
+.modal { background:white; padding:16px; width:520px; border-radius:6px; box-shadow:0 10px 30px rgba(0,0,0,0.2); max-height:80vh; overflow:auto; }
+.modal form label { display:block; margin-bottom:8px; }
+.modal input, .modal textarea, .modal select { width:100%; padding:8px; margin-top:4px; }
+.modal-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:12px; }
+
+
